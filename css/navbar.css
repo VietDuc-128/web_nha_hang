@@ -1,0 +1,37 @@
+.bg-black{
+    background-color: black;
+}
+
+.bg-banner {
+    background-color: #F3E9E1;
+}
+
+.bg-footer-light{
+    background-color: #D2BF92;
+}
+.bg-footer-red{
+    background: linear-gradient(to bottom, #AE010A, #810309);
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+.icon-contact {
+    color: #fff;
+}
+
+.nav-bar{
+    height: 95px;
+}
+
+.navbar-logo {
+    justify-self: start !important;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+}
